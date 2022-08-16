@@ -1,0 +1,17 @@
+.heading {
+  font-family: Arial, Helvetica, sans-serif;
+  color: lightcoral;
+  font-size: 100px;
+  font-style: italic;
+  text-align: center;
+  margin: 0px;
+  margin-top: 60px;
+  text-shadow: 4px 4px rgb(0, 0, 0, 0.2);
+}
+
+.popper {
+  text-align: center;
+  font-size: 300px;
+  vertical-align: middle;
+  margin: 0;
+}
