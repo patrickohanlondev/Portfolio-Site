@@ -1,40 +1,45 @@
-
-
-.big-div {
-  width:500px;
-  height:500px;
-  margin:0 auto;
-  position:absolute;
-  left:50%;
-  top:50%;
-  margin-left:-250px;
-  margin-top:-250px;
-  justify-content: center;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.page2-button {
-  margin: 0;
-  background-color: lightcoral;
-  border-style: none;
-  padding-left: 24px;
-  padding-right: 24px;
-  padding-top: 12px;
-  padding-bottom: 12px;
-  border-radius: 1000px;
-  font-size: 20px;
-  color: white;
-}
-
-.heading {
+body {
   font-family: Arial, Helvetica, sans-serif;
   color: white;
-  font-size: 100px;
-  font-style: italic;
-  text-align: center;
-  margin: 0px;
-  margin-top: 60px;
-  text-shadow: 4px 4px rgb(0, 0, 0, 0.2);
+  font-size: 26px;
 }
+
+.background {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 0%;
+  bottom: 0%;
+  left: 0%;
+  right: 0%;
+  background-color: rgb(37, 37, 37);
+}
+
+.info-box {
+  position: fixed;
+  height: fit-content
+  width: fit-content;
+}
+
+.row {
+  display: flex;
+}
+
+  @keyframes blink {
+    50% {
+      opacity: 0.0;
+    }
+  }
+  .blinking-cursor {
+    animation: blink 1s step-start 0s infinite;
+    color: rgb(255, 188, 62);
+  }
+
+  .lightblue {
+    color: rgb(103, 164, 255);
+  }
+
+  .orange {
+    color: rgb(255, 188, 62);
+  }
