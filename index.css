@@ -34,6 +34,7 @@ body {
   .blinking-cursor {
     animation: blink 1s step-start 0s infinite;
     color: rgb(255, 188, 62);
+    font-weight: bold;
   }
 
   .lightblue {
